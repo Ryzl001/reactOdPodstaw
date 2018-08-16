@@ -8,3 +8,15 @@ create-react-app helloworld
 
 *****************
 jeśli eksportujemy coś jako nie default to musimy imporotować w nawiasach {} i możemy zmienić nazwę np import { app as pizza }, nowa nazwa to pizza
+
+**************
+PROPS
+Immutable(niezmienny) data passed to your components
+Accessible in your component as an object called: this.props
+np.
+class ShowText extends Component {
+  render() {
+    return <div>{this.props.text}</div>
+  }
+}
+<ShowText text="This is a prop named text" />
