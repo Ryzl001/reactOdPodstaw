@@ -1,0 +1,9 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  padding: 40px;
+  color: white
+}
