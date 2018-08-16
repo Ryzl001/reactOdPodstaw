@@ -5,3 +5,6 @@ Tworzymy new react app
 ====
 npm i -g create-react-app
 create-react-app helloworld
+
+*****************
+jeśli eksportujemy coś jako nie default to musimy imporotować w nawiasach {} i możemy zmienić nazwę np import { app as pizza }, nowa nazwa to pizza
